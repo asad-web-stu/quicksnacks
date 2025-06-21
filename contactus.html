@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+
+        .banner1 {
+            width: 100%;
+            height: 60vh;
+            background-color: red;
+            background: linear-gradient(rgba(10, 10, 10, 0.55), rgba(0, 0, 0, 0.25)), url('Images/bc.jpeg');
+            background-position: center;
+            background-size: cover;
+            padding: 40px 72px 42px 72px;
+        }
+
+        .banner1 h1 {
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+            margin-top: 113px;
+
+        }
+
+        .color {
+            /* background-color: rgb(135, 165, 165); */
+            padding: 96px 93px 96px 93px;
+            height: 636px;
+            width: 573px;
+            justify-content: center;
+            margin-top: 60px;
+            margin-left: 50px;
+            background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25)), url('Images/coffe.jpeg');
+        }
+
+        .contact {
+            margin: 40px;
+            padding: 30px;
+            margin-left: 40px;
+
+        }
+
+        .contact h2 {
+            font-family: "Fraunces", serif;
+            font-size: 16px;
+            color: #349705;
+            margin-bottom: 6px;
+        }
+
+        .container {
+            display: flex;
+
+
+
+        }
+
+
+        .contact p {
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+            color: grey;
+            line-height: 30px;
+            margin-top: 18px;
+            margin-bottom: 16px;
+        }
+
+        .contact h3 {
+            color: #349705;
+            margin-bottom: 8px;
+            font-family: "Fraunces", serif;
+            font-size: 20px;
+
+        }
+
+        .contact h4 {
+            margin-bottom: 16px;
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+
+        }
+
+        .container2 {
+            padding-right: 72px;
+            display: flex;
+        }
+
+        .banner_booktable1 {
+            background-image: url(Images/71ec077163dfafdf1bdb0a642c13aacb.png);
+        }
+
+        .text h2 {
+            font-family: "Fraunces", serif;
+            font-size: 16px;
+            color: #349705;
+            margin-bottom: 6px;
+        }
+
+        .text h1 {
+            font-family: "Fraunces", serif;
+            font-size: 30px;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            margin-top: 160px;
+            text-align: right;
+            margin-right: 134px;
+
+        }
+
+        .images.box1 {
+            background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25)), url('Images/77b53c5ab22c5ac8b4f533ccf988f07f.png');
+            height: 416px;
+            width: 416px;
+            margin-top: 20px;
+            margin-left: 125px;
+            rotate: -180;
+
+        }
+
+        .images.box2 {
+            background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25)), url('Images/71ec077163dfafdf1bdb0a642c13aacb.png');
+            height: 416px;
+            width: 416px;
+            margin-top: 20px;
+            margin-left: 125px;
+
+        }
+
+        /* background: url('Images/71ec077163dfafdf1bdb0a642c13aacb.png');
+            height: 416px;
+            width: 416px;
+            margin-left: 100px;
+            margin-top: 130px; */
+
+
+
+        .map-container {
+            position: relative;
+            width: 1000%;
+            max-width: 1000px;
+            /* Adjust the max-width as needed */
+            margin: 0 auto;
+
+            padding: 20px;
+            ;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+
+
+        }
+
+        ;
+    </style>
+</head>
+
+<body>
+
+
+    <div class="banner1">
+        <header>
+            <img src="Images/logo.png" alt="Logo"> <span id="logo_text">Quick
+                Restaurant</span>
+
+            <nav>
+                <ul id="navbar_items">
+                    <li><a href="#" style="font-weight: bold; color:
+                                #349705;">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1>Contact us</h1>
+
+    </div>
+
+    <div class="container">
+
+        <div class="color">
+
+            <div class="banner_booktabel">
+                <h3>Reservation</h3>
+                <h2>Book a Table</h2>
+                <form action="booking_system.php" method="post" id="banner_form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                    <label for="email">Select Date</label>
+                    <input type="date" id="date" name="date" required placeholder="Select Date">
+                    <label for="phone">Select Time</label>
+                    <input type="time" id="time" name="time" required placeholder="Select Date">
+                    <label for="people">Number of People</label>
+                    <input type="number" id="people" name="people" required placeholder="Number of People">
+                </form>
+                <button type="submit" form="banner_form" id="book_btn">Book
+                    Now</button>
+            </div>
+
+
+        </div>
+        <div class="contact">
+
+            <h2>Restaurant</h2>
+            <h1>Your ultimate destination to get quality cuisines.
+            </h1>
+            <p>At Quick Restaurant, we pride ourselves compromising on quality. Whether you're here for a quick bite or
+                a leisurely meal, <br>
+            </p>
+
+
+            <h3>Our phone</h3>
+            <h4>92+145789753</h4>
+            <h3>Our E-mail</h3>
+            <h4>abdullah@aptechsite.net
+                asad@aptechsite.net
+            </h4>
+            <h3>Our address</h3>
+            <h4>Nazimabad,<br>
+                karachi
+            </h4>
+
+
+
+
+        </div>
+
+    </div>
+
+    <div class="container2">
+
+        <div class="text">
+            <h2>Restaurant</h2>
+            <h1>Taste the difference with us</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, exercitationem!</p>
+
+
+        </div>
+
+        <div class="images">
+
+            <div class="box1"></div>
+
+        </div>
+        <div class="box2">
+
+
+        </div>
+    </div>
+    <div class="map">
+
+
+        <footer>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.5412142543666!2d-122.4194185846818!3d37.77492927975845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581f5fcf7b055%3A0x1b66d4de2dc9df20!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1691720853828!5m2!1sen!2sin"
+                    width="650" height="457" style="border:0;" allowfullscreen="full" loading="normal"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </footer>
+</body>
+
+</html>
+
+</div>
+
+
+</body>
+
+</html>
